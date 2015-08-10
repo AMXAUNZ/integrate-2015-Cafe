@@ -1,0 +1,12 @@
+#RMS SDK Includes
+/src/inc/rms-sdk/*
+!/src/inc/rms-sdk/readme.txt
+
+#RMS SDK Modules
+/src/mod/rms-sdk/*
+!/src/mod/rms-sdk/readme.txt
+
+# Main program compiled (.tkn), object (.tko), and compressed source (.src) files
+/src/*.tkn
+/src/*.tko
+/src/*.src
