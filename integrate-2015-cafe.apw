@@ -136,8 +136,32 @@
 <UserName></UserName>
 <Password></Password>
 <Comments></Comments>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-controlports-api</Identifier>
+<FilePathName>src\inc\lib\amx-device-library\amx-controlports-api.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-controlports-control</Identifier>
+<FilePathName>src\inc\lib\amx-device-library\amx-controlports-control.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-device-control</Identifier>
+<FilePathName>src\inc\lib\amx-device-library\amx-device-control.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-modero-api</Identifier>
+<FilePathName>src\inc\lib\amx-modero-library\amx-modero-api.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-modero-control</Identifier>
+<FilePathName>src\inc\lib\amx-modero-library\amx-modero-control.axi</FilePathName>
+<Comments></Comments>
+</File>
 <File CompileType="Netlinx" Type="MasterSrc"><Identifier>integrate-2015-cafe</Identifier>
 <FilePathName>src\integrate-2015-cafe.axs</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="TP4"><Identifier>integrate-2015-cafe-mst-431</Identifier>
+<FilePathName>ui\tp\integrate-2015-cafe-mst-431.TP4</FilePathName>
 <Comments></Comments>
 </File>
 </System>
