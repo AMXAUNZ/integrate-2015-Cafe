@@ -121,14 +121,14 @@
 <SalesOrder></SalesOrder>
 <PurchaseOrder></PurchaseOrder>
 <Comments></Comments>
-<System IsActive="true" Platform="Netlinx" Transport="Serial" TransportEx="Serial"><Identifier>The Cafe</Identifier>
+<System IsActive="true" Platform="Netlinx" Transport="Serial" TransportEx="TCPIP"><Identifier>The Cafe</Identifier>
 <SysID>0</SysID>
 <TransTCPIP>0.0.0.0</TransTCPIP>
 <TransSerial>COM1,115200,8,None,1,None</TransSerial>
-<TransTCPIPEx>192.168.251.51|1319|1|DVX-3156HD-SP [DVX-Colab]||</TransTCPIPEx>
+<TransTCPIPEx>192.168.251.117|1319|1|Integrate 2015 - Cafe NX-1200||</TransTCPIPEx>
 <TransSerialEx>COM25|38400|8|None|1|None||</TransSerialEx>
 <TransUSBEx>|||||</TransUSBEx>
-<TransVNMEx>192.168.0.1|1|&lt;Default&gt;</TransVNMEx>
+<TransVNMEx>10.0.0.1|1|&lt;Default&gt;</TransVNMEx>
 <VirtualNetLinxMasterFlag>false</VirtualNetLinxMasterFlag>
 <VNMSystemID>1</VNMSystemID>
 <VNMIPAddress>10.0.0.1</VNMIPAddress>
@@ -136,8 +136,32 @@
 <UserName></UserName>
 <Password></Password>
 <Comments></Comments>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-controlports-api</Identifier>
+<FilePathName>src\inc\lib\amx-device-library\amx-controlports-api.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-controlports-control</Identifier>
+<FilePathName>src\inc\lib\amx-device-library\amx-controlports-control.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-device-control</Identifier>
+<FilePathName>src\inc\lib\amx-device-library\amx-device-control.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-modero-api</Identifier>
+<FilePathName>src\inc\lib\amx-modero-library\amx-modero-api.axi</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="Include"><Identifier>amx-modero-control</Identifier>
+<FilePathName>src\inc\lib\amx-modero-library\amx-modero-control.axi</FilePathName>
+<Comments></Comments>
+</File>
 <File CompileType="Netlinx" Type="MasterSrc"><Identifier>integrate-2015-cafe</Identifier>
 <FilePathName>src\integrate-2015-cafe.axs</FilePathName>
+<Comments></Comments>
+</File>
+<File CompileType="Netlinx" Type="TP4"><Identifier>integrate-2015-cafe-mst-431</Identifier>
+<FilePathName>ui\tp\integrate-2015-cafe-mst-431.TP4</FilePathName>
 <Comments></Comments>
 </File>
 </System>

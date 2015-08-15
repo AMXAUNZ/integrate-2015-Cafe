@@ -1,0 +1,6 @@
+[submodule "src/inc/lib/amx-device-library"]
+	path = src/inc/lib/amx-device-library
+	url = https://github.com/AMXAUNZ/amx-device-library
+[submodule "src/inc/lib/amx-modero-library"]
+	path = src/inc/lib/amx-modero-library
+	url = https://github.com/AMXAUNZ/amx-modero-library
